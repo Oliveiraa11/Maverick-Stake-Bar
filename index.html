@@ -1,187 +1,132 @@
 <!DOCTYPE html>
-<hmtl>
-  <head>
-    <title>CADASTRO</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimun-scale=1"
-    />
-    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-    <script type="text/javascript" src="js/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- MENU -->
-    <nav class="navbar">
-      <img class="logo" src="img/ShopBag.svg" />
-      <ul class="nav-links" id="nav-links">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="./LOGIN/index.html">Login</a></li>
-        <li><a href="./MaisProdutos/index.html">Produtos</a></li>
-        <li><a href="./COMPRA/index.html">Carrinho</a></li>
-        <li><a href="./CADASTRO/index.html">Cadastro</a></li>
-        <li class="ctn"><a href="#contact">CONTATO</a></li>
-      </ul>
-      <img src="img/menu-btn.png" id="menu-btn" class="menu-btn" />
-    </nav>
-    <header>
-      <div class="header-content">
-        <h2>Sinta o sabor da vida</h2>
-        <div class="line"></div>
-        <h1>UM PRESENTE MARAVILHOSO</h1>
-        <a href="#events" class="ctn">Veja mais</a>
-      </div>
-    </header>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="container">
 
-    <!-- EVENTOS -->
-    <section class="events">
-      <div class="title">
-        <h1>Produtos mais vendidos</h1>
-        <div class="line"></div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/cafe.jpg" alt="" />
-          <h4>Café</h4>
-          <p>
-            O café, além de ser delicioso, faz muito bem para a saúde. O café
-            pode ser um aliado na luta contra doenças como câncer.
-          </p>
-          <a href="./MaisProdutos/" class="ctn">Ver mais</a>
-        </div>
-        <div class="column">
-          <img src="./img/brocolis.png" alt="" />
-          <h4>Brócolis</h4>
-          <p>
-            Os brócolis ou brócolos são vegetais da família Brassicaceae, uma
-            das formas cultivadas de couve, tal como a couve-flor, o repolho,
-            couve-de-bruxelas, couve-nabo entre outras.
-          </p>
-          <a href="./MaisProdutos/" class="ctn">Ver mais</a>
-        </div>
-      </div>
+            <div class="logo"><img src="Logo1.png"></div>
+
+            <div class="menu1">
+                <nav>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#container-a">Sobre</a>
+                    <a href="#category">Cardápio</a>
+                </nav>
+            </div>
+            <div class="botao"><button>Reservas</button></div>
+
+        </div><!--container-->
+    </header><!--Tudo do menu-->
+    <section id="inicio">
+        <img src="maverick 2.png" alt="maverick"height="600" width="100%">
     </section>
+    <div id="container-a">
+        <section class="img">
+            <div class="overlay">
+                <div class="slogan">O MAIS NOVO STEAKBAR DE GUARULHOS</div>
+                <div class="linha"><hr></div>
+                <div class="loc">Venha conhecer o <a class="mav">Maverick</a>, estamos localizados em uma das melhores regiões da cidade.</div>
+                <div class="rua">Av. Papa Pio XII, 338 - Macedo</div>
+            </div>
+        </section>
+    </div><div id="container-b">
 
-    <section class="explore">
-      <div class="explore-content">
-        <h1>APROVEITE A VIDA</h1>
-        <div class="line"></div>
-        <p>
-          Sempre realizamos o acompanhamento dos produtos através de aplicações
-          modernas e seguras.
-        </p>
-      </div>
-    </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4302.320445161198!2d-46.52063613600866!3d-23.466135889867346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef55491647297%3A0xbd7d9c46191401!2sMAVERICK%20STEAK%20BAR%20E%20RESTAURANTE!5e0!3m2!1spt-BR!2sbr!4v1694734765995!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <section id="events" class="events">
-      <div class="title">
-        <h1>Venha nos conhecer</h1>
-        <div class="line"></div>
-      </div>
-      <div class="video">
-        <iframe
-          width="896"
-          height="504"
-          src="https://www.youtube.com/embed/Jp1lJumg-Cc"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
+    </div>
 
-    <section class="formulario">
-      <div class="contato">
-        <div class="title-form">
-          <h1>Nos diga o que achou</h1>
-          <div class="line"></div>
+    <div id="category" align="center"><h1>Entradas</h1></div>
+    <div class="menu">
+        <!-- Prato 1 - Entrada 1 -->
+        <div class="menu-item">
+            <img src="https://cdn0.tudoreceitas.com/pt/posts/5/4/1/tulipa_de_frango_assada_no_forno_crocante_10145_orig.jpg" alt="Entrada 1">
+            <h2>Tulipas de Frango</h2>
+            <p>Aperitivo delicioso Tulipas de Frango temperadas.</p>
+            <p>Preço: R$ 16,99</p>
         </div>
-        <form class="form" name="name">
-          <textarea
-            class="field"
-            name="mesage"
-            placeholder="Deixe alguma sugestão"
-            required
-          ></textarea>
-          <input type="submit" class="btn-form" value="Enviar" />
-        </form>
-      </div>
-    </section>
 
-    <section id="contact" class="contact">
-      <div class="contact-in">
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58527.00236355642!2d-46.819593185035856!3d-23.534744932096395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff085b9ef207%3A0xf21e27d4c824c4e!2sOsasco%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1636408013862!5m2!1spt-BR!2sbr"
-            width="100%"
-            height="auto"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          >
-          </iframe>
-        </div>
-        <div class="contact-form">
-          <h1>Entre em contato</h1>
-          <form>
-            <input
-              type="text"
-              placeholder="Nome"
-              class="contact-form-txt"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              class="contact-form-txt"
-              required
-            />
-            <textarea
-              placeholder="Mensagem"
-              class="contact-form-txtarea"
-              required
-            ></textarea>
-            <input
-              type="submit"
-              name="Submit"
-              class="contact-form-btn"
-              required
-            />
-          </form>
-        </div>
-      </div>
-    </section>
 
-    <footer>
-      <div class="footer-content">
-        <h3>Junin Quitanda</h3>
-        <p>Trabalho de programação WEB da universidade PUCPR, grande abraço!</p>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright &copy;2021. designed by <span>herbert souza</span></p>
-      </div>
-    </footer>
-  </body>
-</hmtl>
+        <!-- Prato 2 - Entrada 2 -->
+        <div class="menu-item">
+            <img src="https://s2.glbimg.com/VB1iPFZI13Cfi84wlLPVExoyK74=/620x455/e.glbimg.com/og/ed/f/original/2021/08/18/mignon-suino-molho-de-mostarda.jpg" alt="Entrada 2">
+            <h2>Lombinho com Bacon</h2>
+            <p>Lombo suíno com bacon tem um sabor diferenciado e marcante assados na brasa e no sal.</p>
+            <p>Preço: R$ 21,99</p>
+        </div>
+
+
+        <!-- Prato 3 - Prato Principal 2 -->
+        <div class="menu-item">
+            <img src="https://naminhapanela.com/wp-content/uploads/2023/02/Pao-de-alho-no-forno-2-735x488.jpg" alt="Prato Principal 2">
+            <h2>Pão de Alho</h2>
+            <p>Sabor incomparável do pão com alho (Santa Massa).</p>
+            <p>Preço: R$ 14,99</p>
+        </div>
+    </div>
+
+
+    <div class="category" align="center"><h1>Pratos Principais</h1></div>
+    <div class="menu">
+        <!-- Prato 4 - Prato Principal 1 -->
+        <div class="menu-item" align="center">
+            <img src="https://img.freepik.com/fotos-premium/prato-de-carnes-grelhadas-variadas-com-rodelas-de-batata-e-molhos_157927-2464.jpg" alt="Prato Principal 1">
+            <h2>Steak Especial 1</h2>
+            <p>Uma seleção de cortes de carne premium grelhados à perfeição, acompanhados de batatas assadas e vegetais da estação.</p>
+            <p>Preço: R$ 79,99</p>
+        </div>
+
+
+        <!-- Prato 5 - Prato Principal 2 -->
+        <div class="menu-item" align="center">
+            <img src="https://s2-redeglobo.glbimg.com/RKae6x7AsjKHtIyYzsK9nn4Ojb0=/0x0:1000x666/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/F/w/qhABVGReCMozwuXavQwA/picanha.jpg" alt="Prato Principal 2">
+            <h2>Steak Especial 2</h2>
+            <p>Um corte nobre de carne grelhada ao ponto, acompanhado de molho chimichurri e purê de batata.</p>
+            <p>Preço: R$ 54,99</p>
+        </div>
+
+
+        <!-- Prato 6 - Prato Principal 2 -->
+        <div class="menu-item" align="center">
+            <img src="https://i.panelinha.com.br/i1/228-q-8419-blog-ayu0287.webp" alt="Prato Principal 2">
+            <h2>Steak Especial 3</h2>
+            <p>Um saboroso bife de fraldinha grelhado com molho de pimenta, servido com arroz e feijão.</p>
+            <p>Preço: R$ 36,99</p>
+        </div>
+    </div>
+
+    <div class="category" align="center"><h1>Sobremesas</h1></div>
+    <div class="menu">
+        <!-- Prato 7 - Prato Principal 1 -->
+        <div class="menu-item">
+            <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-pudim-caseiro-de-chocolate.jpg" alt="Prato Principal 1">
+            <h2>Pudim de Chocolate</h2>
+            <p>Pudim de Leite com Chocolate.</p>
+            <p>Preço: R$ 16,99</p>
+        </div>
+
+
+        <!-- Prato 8 - Prato Principal 2 -->
+        <div class="menu-item" align="center">
+            <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2021/10/torta_banofeei-780x478.jpg" alt="Prato Principal 2">
+            <h2>Banoffe</h2>
+            <p>Banoffe.</p>
+            <p>Preço: R$ 27,99</p>
+        </div>
+       
+        <!-- Prato 9 - Prato Principal 2 -->
+        <div class="menu-item" align="center">
+            <img src="https://img.cybercook.com.br/receitas/434/petit-gateau.jpeg" alt="Prato Principal 2">
+            <h2>Petit Gâteau</h2>
+            <p>Petit Gâteau com sorvete de baunilha.</p>
+            <p>Preço: R$ 24,99</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
